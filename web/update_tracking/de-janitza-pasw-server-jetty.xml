@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.server.jetty">
+    <module_version install_time="1401882405978" last="true" origin="installer" specification_version="10.20.0">
+        <file crc="1730874375" name="config/Modules/de-janitza-pasw-server-jetty.xml"/>
+        <file crc="2113790306" name="modules/de-janitza-pasw-server-jetty.jar"/>
+        <file crc="648025248" name="modules/ext/log4j/log4j-1.2.17.jar"/>
+        <file crc="295978187" name="modules/ext/org.eclipse.jetty/jetty-webapp-8.1.5.v20120716.jar"/>
+        <file crc="1925861924" name="modules/ext/org.eclipse.jetty/jetty-xml-8.1.5.v20120716.jar"/>
+        <file crc="191669089" name="modules/ext/org.slf4j/jcl-over-slf4j-1.7.6.jar"/>
+    </module_version>
+</module>

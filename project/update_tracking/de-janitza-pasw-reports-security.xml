@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reports.security">
+    <module_version install_time="1401882407050" last="true" origin="installer" specification_version="1.3.0">
+        <file crc="2445370492" name="config/Modules/de-janitza-pasw-reports-security.xml"/>
+        <file crc="3618627264" name="modules/de-janitza-pasw-reports-security.jar"/>
+    </module_version>
+</module>
