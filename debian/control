@@ -1,0 +1,31 @@
+Source: gridvis-server
+Section: utils
+Priority: optional
+Maintainer: Janitza electronics GmbH <info@janitza.com>
+Uploaders: Carsten Schoenert <c.schoenert@t-online.de>
+Build-Depends: debhelper (>= 7.0.50~),
+  dh-systemd,
+  lynx
+#Vcs-Git: 
+#Vcs-Browser: 
+Standards-Version: 3.9.5
+Homepage: http://www.janitza.com/products/software/software-gridvis/
+
+Package: gridvis-server
+Architecture: i386 amd64
+Depends: ${misc:Depends}, ${shlibs:Depends},
+ jarwrapper (>= 0.43),
+ openjdk-7-jre,
+ systemd-sysv
+Suggests: gridvis-desktop (>= 5.0.1~)
+Description: web admin software for Janitza measurement devices
+ The Janitza-GridVis service software that works as a daemon to read
+ out the various devices, collect the data and store the measurement
+ data into a database.
+ .
+ The GridVis software is a product of:
+ .
+ Janitza electronics GmbH
+ Vor dem Polstück 1
+ D-35633 Lahnau
+ Germany

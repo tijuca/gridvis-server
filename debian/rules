@@ -1,0 +1,39 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+# #export DH_VERBOSE=1
+
+PACKAGE_NAME=gridvis-server
+
+ifeq ($(DEB_BUILD_ARCH),amd64)
+	MODULES_LIB_PLATFORM=amd64
+endif
+ifeq ($(DEB_BUILD_ARCH),i386)
+	MODULES_LIB_PLATFORM=i386
+endif
+
+%:
+	dh ${@} --with=systemd
+
+override_dh_installdocs:
+	dh_installdocs
+	lynx -dump -nolist changelog.html > $(CURDIR)/debian/$(PACKAGE_NAME)/usr/share/doc/$(PACKAGE_NAME)/changelog
+	cd $(CURDIR)/debian/$(PACKAGE_NAME)/usr/share/doc/$(PACKAGE_NAME)/ && gzip -9 changelog
+
+override_dh_install:
+	dh_install
+	# linking the jre/ directory to the default JRE
+	cd $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/ && \
+		ln -s /usr/lib/jvm/default-java/jre
+	# removing all preshipped libraries in 'wrapper/modules/lib'
+	# and replace only the platform related files in there
+	rm -rf $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/wrapper/modules/lib/*
+	cp -a $(CURDIR)/wrapper/modules/lib/$(MODULES_LIB_PLATFORM) \
+		$(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/wrapper/modules/lib/
+
+override_dh_shlibdeps:
+	dh_shlibdeps -a -l $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME) -Xjre
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod +x $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/platform/lib/nbexec

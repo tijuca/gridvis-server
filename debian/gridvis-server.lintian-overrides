@@ -1,0 +1,5 @@
+gridvis-server: jar-not-in-usr-share usr/lib/gridvis-server/*
+gridvis-server: codeless-jar usr/lib/gridvis-server/*
+# there is no file for /etc/init.d included
+gridvis-server: init.d-script-not-marked-as-conffile
+gridvis-server: init.d-script-not-included-in-package
