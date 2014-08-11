@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.web.status.mail">
-    <module_version install_time="1401882407259" last="true" origin="installer" specification_version="1.18.0">
+    <module_version install_time="1404389554057" last="true" origin="installer" specification_version="1.18.1">
         <file crc="270670722" name="config/Modules/de-janitza-pasw-web-status-mail.xml"/>
-        <file crc="2508768811" name="modules/de-janitza-pasw-web-status-mail.jar"/>
+        <file crc="1896105683" name="modules/de-janitza-pasw-web-status-mail.jar"/>
     </module_version>
 </module>
