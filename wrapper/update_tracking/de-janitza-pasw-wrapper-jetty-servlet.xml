@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jetty.servlet">
-    <module_version install_time="1401882406001" last="true" origin="installer" specification_version="8.1.5.2">
+    <module_version install_time="1417159033627" last="true" origin="installer" specification_version="8.1.5.2">
         <file crc="3012864185" name="config/Modules/de-janitza-pasw-wrapper-jetty-servlet.xml"/>
-        <file crc="1328695728" name="modules/de-janitza-pasw-wrapper-jetty-servlet.jar"/>
+        <file crc="2229756003" name="modules/de-janitza-pasw-wrapper-jetty-servlet.jar"/>
         <file crc="478434668" name="modules/ext/de.janitza.pasw.wrapper-jetty-servlet/org-eclipse-jetty/jetty-client.jar"/>
         <file crc="2249435325" name="modules/ext/de.janitza.pasw.wrapper-jetty-servlet/org-eclipse-jetty/jetty-continuation.jar"/>
         <file crc="674863942" name="modules/ext/de.janitza.pasw.wrapper-jetty-servlet/org-eclipse-jetty/jetty-http.jar"/>

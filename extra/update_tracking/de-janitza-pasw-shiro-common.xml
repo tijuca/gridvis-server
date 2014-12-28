@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.shiro.common">
-    <module_version install_time="1401882406871" last="true" origin="installer" specification_version="1.7.0">
+    <module_version install_time="1417159034040" last="true" origin="installer" specification_version="1.9.0">
         <file crc="2460269088" name="config/Modules/de-janitza-pasw-shiro-common.xml"/>
-        <file crc="2373882441" name="modules/de-janitza-pasw-shiro-common.jar"/>
+        <file crc="3673485729" name="modules/de-janitza-pasw-shiro-common.jar"/>
     </module_version>
 </module>
