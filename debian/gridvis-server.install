@@ -1,3 +1,4 @@
+# we want to place the config stuff globally
 etc/*       etc/gridvis-server
 
 # the GridVis folder itself
@@ -15,9 +16,14 @@ extra                usr/lib/gridvis-server/
 filesystems-core     usr/lib/gridvis-server/
 filesystems-impl     usr/lib/gridvis-server/
 filesystems-project  usr/lib/gridvis-server/
+format               usr/lib/gridvis-server/
 graph                usr/lib/gridvis-server/
 graphprog            usr/lib/gridvis-server/
 ide                  usr/lib/gridvis-server/
+jmx-core             usr/lib/gridvis-server/
+jmx-server           usr/lib/gridvis-server/
+# we can't just install the whole jre folder, depends on the build
+# platform, we do this within debian/rules
 #jre                  usr/lib/gridvis-server/
 license              usr/lib/gridvis-server/
 mailing-core         usr/lib/gridvis-server/
@@ -34,5 +40,6 @@ security             usr/lib/gridvis-server/
 server               usr/lib/gridvis-server/
 sharedplugins        usr/lib/gridvis-server/
 topology             usr/lib/gridvis-server/
+value                usr/lib/gridvis-server/
 web                  usr/lib/gridvis-server/
 wrapper              usr/lib/gridvis-server/
