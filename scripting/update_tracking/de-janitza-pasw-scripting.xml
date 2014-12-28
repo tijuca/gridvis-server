@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.scripting">
-    <module_version install_time="1401882406501" last="true" origin="installer" specification_version="10.19.0">
+    <module_version install_time="1417159033811" last="true" origin="installer" specification_version="10.22.0">
         <file crc="1972486363" name="config/Modules/de-janitza-pasw-scripting.xml"/>
-        <file crc="1818343134" name="modules/de-janitza-pasw-scripting-api.jar"/>
+        <file crc="315863944" name="modules/de-janitza-pasw-scripting-api.jar"/>
     </module_version>
 </module>
