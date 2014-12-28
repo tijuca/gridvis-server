@@ -3,3 +3,23 @@ gridvis-server: codeless-jar usr/lib/gridvis-server/*
 # there is no file for /etc/init.d included
 gridvis-server: init.d-script-not-marked-as-conffile
 gridvis-server: init.d-script-not-included-in-package
+# related messages on preshipped JRE
+gridvis-server: image-file-in-usr-lib usr/lib/gridvis-server/jre/*
+gridvis-server: font-in-non-font-package usr/lib/gridvis-server/jre/lib/*
+gridvis-server: hardening-no-relro usr/lib/gridvis-server/jre/*
+gridvis-server: embedded-library usr/lib/gridvis-server/jre/*
+gridvis-server: hardening-no-fortify-functions usr/lib/gridvis-server/jre/*
+gridvis-server: shlib-calls-exit usr/lib/gridvis-server/jre/lib/*
+gridvis-server: spelling-error-in-binary usr/lib/gridvis-server/jre/*
+gridvis-server: extra-license-file usr/lib/gridvis-server/jre/LICENSE
+# various warnings related to precompiled stuff
+gridvis-server: unknown-java-class-version usr/lib/gridvis-server/*
+gridvis-server: package-contains-empty-directory usr/lib/gridvis-server/exports-core/modules/locale/
+gridvis-server: package-contains-empty-directory usr/lib/gridvis-server/extdevice/modules/locale/
+gridvis-server: package-contains-empty-directory usr/lib/gridvis-server/filesystems-core/modules/locale/
+gridvis-server: package-contains-empty-directory usr/lib/gridvis-server/jmx-core/modules/locale/
+gridvis-server: package-contains-empty-directory usr/lib/gridvis-server/jmx-server/modules/locale/
+gridvis-server: package-contains-empty-directory usr/lib/gridvis-server/jre/lib/applet/
+gridvis-server: package-contains-empty-directory usr/lib/gridvis-server/mailing-core/modules/locale/
+gridvis-server: package-contains-empty-directory usr/lib/gridvis-server/wrapper/modules/locale/
+gridvis-server: hardening-no-fortify-functions usr/lib/gridvis-server/wrapper/modules/lib/*
