@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.server.jetty">
-    <module_version install_time="1421146241272" last="true" origin="installer" specification_version="10.22.0">
+    <module_version install_time="1424778682201" last="true" origin="installer" specification_version="10.22.0">
         <file crc="1730874375" name="config/Modules/de-janitza-pasw-server-jetty.xml"/>
         <file crc="3217877679" name="modules/de-janitza-pasw-server-jetty.jar"/>
         <file crc="648025248" name="modules/ext/de.janitza.pasw.server-jetty/log4j/log4j.jar"/>
