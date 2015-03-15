@@ -1,6 +1,29 @@
+gridvis-server (5.1.2.1-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [aee4a95] adding debian specific patch queue
+  * [aa64d81] Imported Upstream version 5.1.1
+  * [d08ffdc] rebuild patch queue from patchqueue branch
+  * [0c8990f] debian/gbp.conf: adding xz compression for orig.tar
+  * [8f964bf] gridvis-server.install: adding new upstream folders
+  * [13f2b2d] debian/control: bump up standards version to 3.9.6
+  * [b8d1ad2] debian/rules: fix package-contains-timestamped-gzip
+  * [fc78a29] debian/rules: removing dh_shlibdeps for now
+  * [bf50be2] debian/rules: adopting changes related to the jre/ folder
+  * [b4d557d] debian/gridvis-server.lintian-overrides: adding new stuff
+  * [a8d6851] debian/source.lintian-overrides: adding overrides for source
+  * [7298bbe] debian/control: remove Depends on openjdk-7-jre
+  * [544f3c1] debian/control: adopting dependencies on GridVis Service
+  * [427139e] debian/gridvis-server.init.d: adding SysV init file
+  * [afd728e] debian/gridvis-server.postinst: adding postinst script
+  * [fca7eb5] Imported Upstream version 5.1.2
+  * [3118edf] Imported Upstream version 5.1.2.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 15 Mar 2015 19:39:20 +0100
+
 gridvis-server (5.0.1-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
-  * initial packaging (Closes: #999999)
+  * initial packaging
 
  -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 13 May 2014 21:58:54 +0200
