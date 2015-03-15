@@ -1,3 +1,11 @@
+gridvis-server (5.1.2.1-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * Rebuild for wheezy-backports.
+  * [baaf6e8] debian/gbp.conf: adopting debian/wheezy-bpo branch
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 15 Mar 2015 19:55:20 +0100
+
 gridvis-server (5.1.2.1-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
