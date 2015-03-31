@@ -1,8 +1,12 @@
 reports
+license
 exports-core
 exports-impl
 exports-project
 reporting-project
+database-core
+database-impl
+database-project
 filesystems-core
 filesystems-impl
 filesystems-project
@@ -11,6 +15,7 @@ reporting-impl
 value
 format
 devices
+device
 jmx-core
 jmx-server
 topology
@@ -25,7 +30,6 @@ project
 sharedplugins
 wrapper
 baseui
-license
 extdevices
 extdevice
 web
@@ -35,3 +39,4 @@ scheduling
 scripting
 security
 alarm
+performance
