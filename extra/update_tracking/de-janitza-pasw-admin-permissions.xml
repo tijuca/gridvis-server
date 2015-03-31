@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.admin.permissions">
-    <module_version install_time="1424778682727" last="true" origin="installer" specification_version="1.9.0">
+    <module_version install_time="1426672477141" last="true" origin="installer" specification_version="1.10.0">
         <file crc="4221692707" name="config/Modules/de-janitza-pasw-admin-permissions.xml"/>
-        <file crc="3193775236" name="modules/de-janitza-pasw-admin-permissions.jar"/>
+        <file crc="2562364605" name="modules/de-janitza-pasw-admin-permissions.jar"/>
     </module_version>
 </module>
