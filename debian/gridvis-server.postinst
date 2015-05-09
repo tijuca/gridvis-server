@@ -44,11 +44,21 @@ modify_dir()
     fi
 }
 
+restart_service()
+{
+    # Restarting the gridvis-service
+    if which invoke-rc.d >/dev/null 2>&1; then
+        invoke-rc.d gridvis-server restart
+    else
+        /etc/init.d/gridvis-server restart
+    fi
+}
+
 case "$1" in
     configure)
         add_group
         modify_dir
-
+        restart_service
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
