@@ -21,8 +21,8 @@ Homepage: http://www.janitza.com/products/software/software-gridvis/
 Package: gridvis-server
 Architecture: i386 amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: gridvis-desktop (>= 5.1.1)
-Breaks: gridvis-desktop (<< 5.1.0)
+Suggests: gridvis-desktop (>= 6.0.0)
+Breaks: gridvis-desktop (<< 6.0.0)
 Description: web admin software for Janitza measurement devices
  The Janitza-GridVis service software that works as a daemon to read
  out the various devices, collect the data and store the measurement
