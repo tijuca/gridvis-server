@@ -33,7 +33,35 @@ override_dh_install:
 		$(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/wrapper/modules/lib/
 
 override_dh_shlibdeps:
-#	dh_shlibdeps -a -l $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME) -Xjre
+	# The guys from Janitza unfortunately packing the (complete) JRE from Oracle.
+	# By this many useless DSO files are preshipped such for gstreamer and ffmpeg
+	# with their related bindings. These functions are surely not used and
+	# provide while packaging some unresolvable situations so we have move
+	# them out of the way.
+	# Without removing the lib{avplugin,gstreamer-lite}.so dh_shlibs will stop
+	# because unresolvable libraries ending with a error message. :-(
+	rm -f $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM)/libavplugin.so
+	rm -f $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM)/libgstreamer-lite.so
+	# Now we can call dh_shlibs with some additional paths (-l) and excludes (-X).
+	dh_shlibdeps \
+		-l $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM) \
+		-l $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM)/server \
+		-Xlibjnidispatch-340 \
+		-Xibfontmanager \
+		-Xlibdecora_sse \
+		-Xlibfxplugins \
+		-Xlibglass \
+		-Xlibjavafx_font \
+		-Xlibjavafx_font_freetype \
+		-Xlibjavafx_font_pango \
+		-Xlibjavafx_font_t2k \
+		-Xlibjavafx_iio \
+		-Xlibjfxmedia \
+		-Xlibjsound \
+		-Xlibjsoundalsa \
+		-Xlibprism_common \
+		-Xlibprism_es2 \
+		-Xlibprism_sw
 
 override_dh_fixperms:
 	dh_fixperms
