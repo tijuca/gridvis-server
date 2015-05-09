@@ -2,5 +2,7 @@
 gridvis-server source: source-is-missing jre-i386/*
 gridvis-server source: source-is-missing jre-amd64/*
 gridvis-server source: source-is-missing wrapper/modules/lib/*
+gridvis-server source: license-problem-md5sum-non-free-file jre-i386/lib/cmm/sRGB.pf
+gridvis-server source: license-problem-md5sum-non-free-file jre-amd64/lib/cmm/sRGB.pf
 gridvis-server source: license-problem-json-evil jre-i386/THIRDPARTYLICENSEREADME.txt
 gridvis-server source: license-problem-json-evil jre-amd64/THIRDPARTYLICENSEREADME.txt
