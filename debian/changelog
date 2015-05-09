@@ -1,3 +1,12 @@
+gridvis-server (5.1.4-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * Rebuild for wheezy-backports.
+  * [5769fc8] lintian: fix init.d-script-missing-dependency-on-remote_fs
+  * [bdcee8c] lintian: fix various unused-override messages
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 06 May 2015 13:25:12 +0200
+
 gridvis-server (5.1.2.1-1~bpo70+1) wheezy-backports; urgency=medium
 
   [ Carsten Schoenert ]
