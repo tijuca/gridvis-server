@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.server.spi">
-    <module_version install_time="1430302933603" last="true" origin="installer" specification_version="10.14.0">
+    <module_version install_time="1434015432006" last="true" origin="installer" specification_version="10.14.0">
         <file crc="2751227713" name="config/Modules/de-janitza-pasw-server-spi.xml"/>
         <file crc="1277088126" name="modules/de-janitza-pasw-server-spi.jar"/>
     </module_version>

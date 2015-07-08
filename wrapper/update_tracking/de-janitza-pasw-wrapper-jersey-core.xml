@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jersey.core">
-    <module_version install_time="1430302935136" last="true" origin="installer" specification_version="2.5.0">
+    <module_version install_time="1434015434186" last="true" origin="installer" specification_version="2.5.0">
         <file crc="3342656799" name="config/Modules/de-janitza-pasw-wrapper-jersey-core.xml"/>
-        <file crc="3993044650" name="modules/de-janitza-pasw-wrapper-jersey-core.jar"/>
+        <file crc="858920440" name="modules/de-janitza-pasw-wrapper-jersey-core.jar"/>
         <file crc="3128268962" name="modules/ext/de.janitza.pasw.wrapper-jersey-core/com-fasterxml-jackson-core/jackson-annotations.jar"/>
         <file crc="2372614005" name="modules/ext/de.janitza.pasw.wrapper-jersey-core/com-fasterxml-jackson-core/jackson-core.jar"/>
         <file crc="768732845" name="modules/ext/de.janitza.pasw.wrapper-jersey-core/com-fasterxml-jackson-core/jackson-databind.jar"/>
