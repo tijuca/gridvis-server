@@ -20,11 +20,13 @@ set -e
 
 case "$1" in
     install|upgrade)
-        # stopping a running gridvis-server first
-        if which invoke-rc.d >/dev/null 2>&1; then
-            invoke-rc.d gridvis-server stop
-        else
-            /etc/init.d/gridvis-server stop
+        if [ -f /etc/init.d/gridvis-server ]; then
+            # stopping a running gridvis-server first
+            if which invoke-rc.d >/dev/null 2>&1; then
+                 invoke-rc.d gridvis-server stop
+            else
+                /etc/init.d/gridvis-server stop
+            fi
         fi
         # The cache dir (/var/lib/GridVisData/var/cache) has to be removed
         # before we can install the new version. The GridVis will create a new
