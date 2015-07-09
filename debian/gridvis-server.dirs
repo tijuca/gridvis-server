@@ -1,5 +1,4 @@
-etc/gridvis-service
-etc/gridvis-service/system
+etc/gridvis-server
 usr/lib/gridvis-server
 usr/share/doc/gridvis-server
 var/lib/GridVisData
