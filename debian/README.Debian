@@ -1,0 +1,23 @@
+ License handling
+------------------
+
+The GridVis Service is alway needing a valid license from the Janitza license
+server to run probaly.
+The software is creating a new license file (Trial License, valid for 30 days)
+if you install the package for the fist time. The created license file will be
+stored in:
+
+  /usr/lib/gridvis-server/license.lic
+
+If you are not able to activate your installation within 30 days stop the
+GridVis Service with 'service gridvis-server stop', delete this file and
+restart the gridvis-server by running 'service gridvis-server start'.
+
+In order to get a working GridVis Service you have to create a license request
+file within the admin WebUI that is running on localhost on port 8080 by
+default. The listening port of the WebUI can be changed in the configuration
+file:
+
+  /etc/gridvis-server/server.conf
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 9 July 2014 21:55:07 +0200
