@@ -40,7 +40,7 @@ override_dh_shlibdeps:
 	# them out of the way.
 	# Without removing the lib{avplugin,gstreamer-lite}.so dh_shlibs will stop
 	# because unresolvable libraries ending with a error message. :-(
-	rm -f $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM)/libavplugin.so
+	rm -f $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM)/libavplugin-*.so
 	rm -f $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM)/libgstreamer-lite.so
 	# Now we can call dh_shlibs with some additional paths (-l) and excludes (-X).
 	dh_shlibdeps \
