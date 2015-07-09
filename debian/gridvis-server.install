@@ -5,7 +5,11 @@ etc/*       etc/gridvis-server
 alarm                usr/lib/gridvis-server/
 baseui               usr/lib/gridvis-server/
 bin                  usr/lib/gridvis-server/
+database-core        usr/lib/gridvis-server/
+database-impl        usr/lib/gridvis-server/
+database-project     usr/lib/gridvis-server/
 databases            usr/lib/gridvis-server/
+device               usr/lib/gridvis-server/
 devices              usr/lib/gridvis-server/
 exports-core         usr/lib/gridvis-server/
 exports-impl         usr/lib/gridvis-server/
@@ -28,6 +32,7 @@ jmx-server           usr/lib/gridvis-server/
 license              usr/lib/gridvis-server/
 mailing-core         usr/lib/gridvis-server/
 mailing-impl         usr/lib/gridvis-server/
+performance          usr/lib/gridvis-server/
 platform             usr/lib/gridvis-server/
 project              usr/lib/gridvis-server/
 reporting-core       usr/lib/gridvis-server/
