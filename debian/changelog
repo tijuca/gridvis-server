@@ -1,3 +1,22 @@
+gridvis-server (6.0.3.1-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [b9eeb0b] Imported Upstream version 6.0.1
+  * [100c786] adopt latest git-buildpackage changes
+  * [b304fbf] lintian: fix warning related to dh_shlibdeps
+  * [a9e3144] lintian: adding some more source overrides
+  * [e198d61] debian/control: increasing depended versions
+  * [328cca9] d/gridvis-server.[post,pre]inst: adding start stop for g-s
+  * [3b0cfed] Imported Upstream version 6.0.2
+  * [59be4f0] d/g-s.{dirs,install}: adopting upstream changes to shipped folders
+  * [52b9233] d/g-s.preinst: adding sanity check
+  * [a16d140] debian/rules: adopting upstream changes libavplugin*
+  * [fbff33d] debian/README.Debian: adding specific info
+  * [bcfcb57] Imported Upstream version 6.0.3.1
+  * [d42627d] rebuild patch queue from patchqueue branch
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 14 Jul 2015 14:32:49 +0200
+
 gridvis-server (5.1.4-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
