@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.wicket.core">
-    <module_version install_time="1426672475828" last="true" origin="installer" specification_version="6.15.0.0">
+    <module_version install_time="1436423604783" last="true" origin="installer" specification_version="6.15.0.0">
         <file crc="4168011300" name="config/Modules/de-janitza-pasw-wrapper-wicket-core.xml"/>
-        <file crc="3803385529" name="modules/de-janitza-pasw-wrapper-wicket-core.jar"/>
+        <file crc="2781830935" name="modules/de-janitza-pasw-wrapper-wicket-core.jar"/>
         <file crc="2193106888" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/org-apache-wicket/wicket-core.jar"/>
         <file crc="1757951429" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/org-apache-wicket/wicket-request.jar"/>
         <file crc="4128756463" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/org-apache-wicket/wicket-util.jar"/>
