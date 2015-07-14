@@ -1,3 +1,22 @@
+gridvis-server (6.0.3.1-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [b9eeb0b] Imported Upstream version 6.0.1
+  * [3b0cfed] Imported Upstream version 6.0.2
+  * [bcfcb57] Imported Upstream version 6.0.3.1
+  * [ff93b39] adopt latest git-buildpackage changes
+  * [16724ec] lintian: fix warning related to dh_shlibdeps
+  * [a8507c0] lintian: adding some more source overrides
+  * [e7964c1] debian/control: increasing depended versions
+  * [7b81710] d/gridvis-server.[post,pre]inst: adding start stop for g-s
+  * [5dfa5f2] d/g-s.{dirs,install}: adopting upstream changes to shipped folders
+  * [1ab2611] d/g-s.preinst: adding sanity check
+  * [dd5fcc5] debian/rules: adopting upstream changes libavplugin*
+  * [d59e9f6] debian/README.Debian: adding specific info
+  * [211f876] rebuild patch queue from patchqueue branch
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 14 Jul 2015 08:29:28 +0200
+
 gridvis-server (5.1.4-1~bpo70+1) wheezy-backports; urgency=medium
 
   [ Carsten Schoenert ]
