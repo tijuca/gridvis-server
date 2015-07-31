@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.server.adminservice">
-    <module_version install_time="1436423604686" last="true" origin="installer" specification_version="10.48.0">
+    <module_version install_time="1438091909341" last="true" origin="installer" specification_version="10.48.0">
         <file crc="2530268473" name="config/Modules/de-janitza-pasw-server-adminservice.xml"/>
-        <file crc="677616430" name="modules/de-janitza-pasw-server-adminservice.jar"/>
-        <file crc="1183396648" name="war/admin.war"/>
+        <file crc="2450293442" name="modules/de-janitza-pasw-server-adminservice.jar"/>
+        <file crc="881061126" name="war/admin.war"/>
     </module_version>
 </module>

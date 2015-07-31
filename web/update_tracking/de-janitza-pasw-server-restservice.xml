@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.server.restservice">
-    <module_version install_time="1436423604920" last="true" origin="installer" specification_version="1.41.0">
+    <module_version install_time="1438091909736" last="true" origin="installer" specification_version="1.41.0">
         <file crc="451178949" name="config/Modules/de-janitza-pasw-server-restservice.xml"/>
-        <file crc="1684446562" name="modules/de-janitza-pasw-server-restservice.jar"/>
-        <file crc="2433258405" name="war/rest.war"/>
+        <file crc="2617016248" name="modules/de-janitza-pasw-server-restservice.jar"/>
+        <file crc="764016562" name="war/rest.war"/>
     </module_version>
 </module>
