@@ -1,3 +1,10 @@
+gridvis-server (6.0.4-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [76f34be] Imported Upstream version 6.0.4
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 03 Aug 2015 08:36:51 +0200
+
 gridvis-server (6.0.3.1-1~bpo70+1) wheezy-backports; urgency=medium
 
   [ Carsten Schoenert ]
@@ -15,7 +22,7 @@ gridvis-server (6.0.3.1-1~bpo70+1) wheezy-backports; urgency=medium
   * [d59e9f6] debian/README.Debian: adding specific info
   * [211f876] rebuild patch queue from patchqueue branch
 
- -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 14 Jul 2015 08:29:28 +0200
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 03 Aug 2015 08:36:29 +0200
 
 gridvis-server (5.1.4-1~bpo70+1) wheezy-backports; urgency=medium
 
