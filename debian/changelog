@@ -1,3 +1,12 @@
+gridvis-server (6.0.5-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [07b0198] Imported Upstream version 6.0.5
+  * [8d13d7f] d/g-s.install: adding new folder due upstream changes
+  * [e9c3352] d/gridvis-server.lintian-overrides: remove unused entry
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 21 Oct 2015 21:24:33 +0200
+
 gridvis-server (6.0.4-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
