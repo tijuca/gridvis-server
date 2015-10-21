@@ -20,6 +20,7 @@ extra                usr/lib/gridvis-server/
 filesystems-core     usr/lib/gridvis-server/
 filesystems-impl     usr/lib/gridvis-server/
 filesystems-project  usr/lib/gridvis-server/
+fop                  usr/lib/gridvis-server/
 format               usr/lib/gridvis-server/
 graph                usr/lib/gridvis-server/
 graphprog            usr/lib/gridvis-server/
