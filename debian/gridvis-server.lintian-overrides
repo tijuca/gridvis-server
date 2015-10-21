@@ -10,5 +10,4 @@ gridvis-server: shlib-calls-exit usr/lib/gridvis-server/jre/lib/*
 gridvis-server: spelling-error-in-binary usr/lib/gridvis-server/jre/*
 gridvis-server: extra-license-file usr/lib/gridvis-server/jre/LICENSE
 # various warnings related to precompiled stuff
-gridvis-server: unknown-java-class-version usr/lib/gridvis-server/*
 gridvis-server: hardening-no-fortify-functions usr/lib/gridvis-server/wrapper/modules/lib/*
