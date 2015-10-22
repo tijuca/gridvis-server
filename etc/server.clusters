@@ -35,6 +35,7 @@ extdevices
 jmx-core
 topology
 devices
+fop
 extra
 jmx-server
 database-project
