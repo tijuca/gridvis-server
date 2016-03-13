@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.rest.rest.common">
-    <module_version install_time="1448900644290" last="true" origin="installer" specification_version="1.28.0">
+    <module_version install_time="1454341049590" last="true" origin="installer" specification_version="1.28.0">
         <file crc="749763404" name="config/Modules/de-janitza-pasw-rest-rest-common.xml"/>
-        <file crc="2136362562" name="modules/de-janitza-pasw-rest-rest-common.jar"/>
+        <file crc="1936714383" name="modules/de-janitza-pasw-rest-rest-common.jar"/>
         <file crc="3522431894" name="modules/ext/de.janitza.pasw.rest.rest-common/joda-time/joda-time.jar"/>
     </module_version>
 </module>
