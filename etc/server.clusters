@@ -1,3 +1,4 @@
+embedded-swk105
 license
 performance
 database-impl
@@ -16,14 +17,17 @@ security
 wrapper
 mailing-impl
 reporting-impl
+kpi-project
 reporting-core
 format
+kpi-device
 filesystems-project
 web
 reports
 server
 baseui
 device
+kpi-core
 exports-project
 exports-impl
 filesystems-core
