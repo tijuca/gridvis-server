@@ -1,3 +1,14 @@
+gridvis-server (7.0.2-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [672a22c] Imported Upstream version 7.0.0~rc1
+  * [a86c062] Imported Upstream version 7.0.0
+  * [597962a] Imported Upstream version 7.0.2
+  * [a2345d6] d/g-s.install: adding new folder due upstream changes
+  * [4f3b15b] debian/control: increase Standards-Version to 3.9.7
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 14 Mar 2016 12:45:11 +0100
+
 gridvis-server (6.0.5-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
