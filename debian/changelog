@@ -1,3 +1,17 @@
+gridvis-server (7.0.2-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [07b0198] Imported Upstream version 6.0.5
+  * [330a6fb] d/g-s.install: adding new folder due upstream changes
+  * [e0d5090] d/gridvis-server.lintian-overrides: remove unused entry
+  * [672a22c] Imported Upstream version 7.0.0~rc1
+  * [a86c062] Imported Upstream version 7.0.0
+  * [597962a] Imported Upstream version 7.0.2
+  * [3678e96] d/g-s.install: adding new folder due upstream changes
+  * [0fca6b2] debian/control: increase Standards-Version to 3.9.7
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 21 Mar 2016 07:20:38 +0100
+
 gridvis-server (6.0.4-1~bpo70+1) wheezy-backports; urgency=medium
 
   [ Carsten Schoenert ]
