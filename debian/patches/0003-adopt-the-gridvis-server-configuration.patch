@@ -6,14 +6,14 @@ Changing the order and the value structure of etc/server.conf to
 reflect the LSB folder for persistent modified date by the application
 and better readability of the configuration.
 ---
- etc/server.conf | 72 +++++++++++++++++++++++++++++++++++++++++++++++++++------
- 1 file changed, 65 insertions(+), 7 deletions(-)
+ etc/server.conf | 76 +++++++++++++++++++++++++++++++++++++++++++++++++++------
+ 1 file changed, 69 insertions(+), 7 deletions(-)
 
 diff --git a/etc/server.conf b/etc/server.conf
-index 6755cab..6491c95 100644
+index 256cc32..9e23fc5 100644
 --- a/etc/server.conf
 +++ b/etc/server.conf
-@@ -1,19 +1,77 @@
+@@ -1,19 +1,81 @@
 -# ${HOME} will be replaced by user home directory according to platform
 -default_userdir="/opt/GridVisData"
 +# vim: set filetype=conf:
@@ -24,8 +24,8 @@ index 6755cab..6491c95 100644
  
  # options used by the launcher by default, can be overridden by explicit
  # command line switches
--default_options="--branding server -J-Xms64m -J-Xmx1024m -J-Dvisualvm.display.name=GridVisService -J-Dnetbeans.exception.report.min.level=99999 -J-Dnetbeans.exception.alert.min.level=99999 -J-D.level=INFO -J-Dorg.netbeans.core.startup.TopLogging.level=INFO -J-Dorg.netbeans.core.startup.NbEvents.level=INFO -J-Djava.net.preferIPv4Stack=true -J-Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.Jdk14Logger -J-Dde.janitza.pasw.device.Communication.level=WARNING -J-DserverPort=8080 --nosplash --nogui  -J-Djava.awt.headless=true -J-DSkipStoringEndBeforeStart -J-DSkipStoringTimeInFuture -J-DSkipStoringTimeTooFarInPast -J-DSkipStoringTimebaseInvalid"
-+#default_options="--branding server -J-Xms64m -J-Xmx1024m -J-Dvisualvm.display.name=GridVisService -J-Dnetbeans.exception.report.min.level=99999 -J-Dnetbeans.exception.alert.min.level=99999 -J-D.level=INFO -J-Dorg.netbeans.core.startup.TopLogging.level=INFO -J-Dorg.netbeans.core.startup.NbEvents.level=INFO -J-Djava.net.preferIPv4Stack=true -J-Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.Jdk14Logger -J-Dde.janitza.pasw.device.Communication.level=WARNING -J-DserverPort=8080 --nosplash --nogui  -J-Djava.awt.headless=true -J-DSkipStoringEndBeforeStart -J-DSkipStoringTimeInFuture -J-DSkipStoringTimeTooFarInPast -J-DSkipStoringTimebaseInvalid"
+-default_options="--branding server -J-Dpasw-feature-energy-calc-builder=true -J-Dpasw-feature-ivalue-flat-persistence=true -J-Dpasw-feature-linechart-v2=true -J-Xms64m -J-Xmx1024m -J-Dvisualvm.display.name=GridVisService -J-Dnetbeans.mainclass=de.janitza.pasw.arg.catcher.MainClass -J-Djava.util.logging.config.class=de.janitza.pasw.pasw.logback.JulHandler -J-Dnetbeans.exception.report.min.level=99999 -J-Dnetbeans.exception.alert.min.level=99999 -J-D.level=INFO -J-Dorg.netbeans.core.startup.TopLogging.level=INFO -J-Dorg.netbeans.core.startup.NbEvents.level=INFO -J-Djava.net.preferIPv4Stack=true -J-Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.Jdk14Logger -J-Dde.janitza.pasw.device.Communication.level=WARNING -J-DserverPort=8080 --nosplash --nogui  -J-Djava.awt.headless=true -J-DSkipStoringEndBeforeStart -J-DSkipStoringTimeInFuture -J-DSkipStoringTimeTooFarInPast -J-DSkipStoringTimebaseInvalid"
++#default_options="--branding server -J-Dpasw-feature-energy-calc-builder=true -J-Dpasw-feature-ivalue-flat-persistence=true -J-Dpasw-feature-linechart-v2=true -J-Xms64m -J-Xmx1024m -J-Dvisualvm.display.name=GridVisService -J-Dnetbeans.mainclass=de.janitza.pasw.arg.catcher.MainClass -J-Djava.util.logging.config.class=de.janitza.pasw.pasw.logback.JulHandler -J-Dnetbeans.exception.report.min.level=99999 -J-Dnetbeans.exception.alert.min.level=99999 -J-D.level=INFO -J-Dorg.netbeans.core.startup.TopLogging.level=INFO -J-Dorg.netbeans.core.startup.NbEvents.level=INFO -J-Djava.net.preferIPv4Stack=true -J-Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.Jdk14Logger -J-Dde.janitza.pasw.device.Communication.level=WARNING -J-DserverPort=8080 --nosplash --nogui  -J-Djava.awt.headless=true -J-DSkipStoringEndBeforeStart -J-DSkipStoringTimeInFuture -J-DSkipStoringTimeTooFarInPast -J-DSkipStoringTimebaseInvalid"
  #-J-Dcom.sun.management.jmxremote.port=3333 -J-Dcom.sun.management.jmxremote.authenticate=false -J-Dcom.sun.management.jmxremote.ssl=false
  #-J-Dwicket.configuration=development
 +
@@ -68,6 +68,10 @@ index 6755cab..6491c95 100644
 +default="$default -J-DSkipStoringTimeInFuture"
 +default="$default -J-DSkipStoringTimeTooFarInPast"
 +default="$default -J-DSkipStoringTimebaseInvalid"
++
++# some Janitza specific settings
++default="$default -J-Dpasw-feature-energy-calc-builder=true -J-Dpasw-feature-ivalue-flat-persistence=true -J-Dpasw-feature-linechart-v2=true"
++default="$default -J-Dnetbeans.mainclass=de.janitza.pasw.arg.catcher.MainClass -J-Djava.util.logging.config.class=de.janitza.pasw.pasw.logback.JulHandler"
 +
 +# prefer IPv4 usage
 +default="$default -J-Djava.net.preferIPv4Stack=true"
