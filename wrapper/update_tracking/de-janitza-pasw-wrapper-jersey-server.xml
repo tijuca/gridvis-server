@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jersey.server">
-    <module_version install_time="1454341050489" last="true" origin="installer" specification_version="2.21.2">
+    <module_version install_time="1458137325448" last="true" origin="installer" specification_version="2.22.1.12">
         <file crc="3381648856" name="config/Modules/de-janitza-pasw-wrapper-jersey-server.xml"/>
-        <file crc="367260269" name="modules/de-janitza-pasw-wrapper-jersey-server.jar"/>
+        <file crc="2751835759" name="modules/de-janitza-pasw-wrapper-jersey-server.jar"/>
         <file crc="3009198276" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/javax-validation/validation-api.jar"/>
-        <file crc="4103254391" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-glassfish-jersey-containers/jersey-container-servlet-core.jar"/>
-        <file crc="7268731" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-glassfish-jersey-containers/jersey-container-servlet.jar"/>
-        <file crc="2883771492" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-glassfish-jersey-core/jersey-server.jar"/>
-        <file crc="3847123088" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-glassfish-jersey-media/jersey-media-multipart.jar"/>
+        <file crc="1009814964" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-glassfish-jersey-containers/jersey-container-servlet-core.jar"/>
+        <file crc="2166495697" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-glassfish-jersey-containers/jersey-container-servlet.jar"/>
+        <file crc="3746120119" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-glassfish-jersey-core/jersey-server.jar"/>
+        <file crc="2048181418" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-glassfish-jersey-media/jersey-media-multipart.jar"/>
         <file crc="637501982" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-jvnet-mimepull/mimepull.jar"/>
     </module_version>
 </module>
