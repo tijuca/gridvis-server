@@ -6,11 +6,11 @@ There are some hardcoded calls and variables inside the script that
 doesn't suite with the debian style. Currently just a hack to make the
 stuf work, needs more improvements!
 ---
- bin/server | 13 +++++++++----
- 1 file changed, 9 insertions(+), 4 deletions(-)
+ bin/server | 27 ++++++++++++++++-----------
+ 1 file changed, 16 insertions(+), 11 deletions(-)
 
 diff --git a/bin/server b/bin/server
-index f9cd75e..5afd16b 100755
+index f9cd75e..49ca754 100755
 --- a/bin/server
 +++ b/bin/server
 @@ -4,22 +4,26 @@
@@ -43,6 +43,28 @@ index f9cd75e..5afd16b 100755
      . "$progdir/../etc/$APPNAME".conf
  fi
  
+@@ -54,14 +58,14 @@ if [ -n "$jdkhome" -a \! -d "$jdkhome" -a -d "$progdir/../$jdkhome" ]; then
+ fi
+ 
+ readClusters() {
+-  if [ -x /usr/ucb/echo ]; then
+-    echo=/usr/ucb/echo
+-  else
+-    echo=echo
+-  fi
+-  while read X; do
++    if [ -x /usr/ucb/echo ]; then
++        echo=/usr/ucb/echo
++    else
++        echo=echo
++    fi
++    while read X; do
+     if [ "$X" \!= "" ]; then
+-      $echo "$progdir/../$X"
++         $echo "$progdir/../$X"
+     fi
+   done
+ }
 @@ -76,7 +80,8 @@ absolutize_paths() {
      done
  }
