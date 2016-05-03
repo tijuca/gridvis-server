@@ -1,3 +1,11 @@
+gridvis-server (7.0.4-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [cdc9294] Imported Upstream version 7.0.4
+  * [92b2310] rebuild patch queue from patchqueue branch
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 23 Apr 2016 10:58:23 +0200
+
 gridvis-server (7.0.2-1~bpo70+1) wheezy-backports; urgency=medium
 
   [ Carsten Schoenert ]
