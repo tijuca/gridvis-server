@@ -35,6 +35,7 @@ kpi-core             usr/lib/gridvis-server/
 kpi-device           usr/lib/gridvis-server/
 kpi-project          usr/lib/gridvis-server/
 license              usr/lib/gridvis-server/
+logback.xml          usr/lib/gridvis-server/
 mailing-core         usr/lib/gridvis-server/
 mailing-impl         usr/lib/gridvis-server/
 performance          usr/lib/gridvis-server/
