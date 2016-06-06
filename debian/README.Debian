@@ -2,7 +2,7 @@
 ------------------
 
 The GridVis Service is alway needing a valid license from the Janitza license
-server to run probaly.
+server to run probably.
 The software is creating a new license file (Trial License, valid for 30 days)
 if you install the package for the fist time. The created license file will be
 stored in:
