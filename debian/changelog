@@ -1,3 +1,16 @@
+gridvis-server (7.1.1-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [f08d517] d/g-s.install: adding new file due upstream changes
+  * [54c1ae8] increase Standards-Version to 3.9.8
+  * [1a41f85] Imported Upstream version 7.1.1
+  * [901181f] rebuild patch queue from patchqueue branch
+  * [9c82575] debian/rules: adding override for dh-strip
+  * [999a7a1] debian/control: adding a dependency on libstdc++6
+  * [9d8b2ff] debian/README.Debian: small typo fix
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 06 Jun 2016 22:09:11 +0200
+
 gridvis-server (7.0.4-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
