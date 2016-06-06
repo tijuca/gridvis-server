@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.energy.security">
-    <module_version install_time="1458137324756" last="true" origin="installer" specification_version="2.0.6">
+    <module_version install_time="1464005915018" last="true" origin="installer" specification_version="2.0.11">
         <file crc="2375841237" name="config/Modules/de-janitza-pasw-energy-security.xml"/>
-        <file crc="3202161778" name="modules/de-janitza-pasw-energy-security.jar"/>
+        <file crc="3770940638" name="modules/de-janitza-pasw-energy-security.jar"/>
     </module_version>
 </module>
