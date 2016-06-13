@@ -1,3 +1,16 @@
+gridvis-server (7.1.1-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [76cf641] d/g-s.install: adding new file due upstream changes
+  * [4507777] increase Standards-Version to 3.9.8
+  * [1a41f85] Imported Upstream version 7.1.1
+  * [9fae6e9] rebuild patch queue from patchqueue branch
+  * [3317ca7] debian/rules: adding override for dh-strip
+  * [6232a55] debian/control: adding a dependency on libstdc++6
+  * [08e016d] debian/README.Debian: small typo fix
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 07 Jun 2016 09:29:48 +0200
+
 gridvis-server (7.0.4-1~bpo70+1) wheezy-backports; urgency=medium
 
   [ Carsten Schoenert ]
