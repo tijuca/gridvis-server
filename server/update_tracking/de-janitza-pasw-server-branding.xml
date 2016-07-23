@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.server.branding">
-    <module_version install_time="1464005912386" last="true" origin="installer" specification_version="7.1.1">
+    <module_version install_time="1467013836620" last="true" origin="installer" specification_version="7.1.3">
         <file crc="190728870" name="config/Modules/de-janitza-pasw-server-branding.xml"/>
-        <file crc="1628505497" name="core/locale/core_server.jar"/>
-        <file crc="1203296518" name="modules/de-janitza-pasw-server-branding.jar"/>
-        <file crc="250784776" name="modules/locale/org-netbeans-core_server.jar"/>
+        <file crc="2954877196" name="core/locale/core_server.jar"/>
+        <file crc="4036512850" name="modules/de-janitza-pasw-server-branding.jar"/>
+        <file crc="400362402" name="modules/locale/org-netbeans-core_server.jar"/>
     </module_version>
 </module>
