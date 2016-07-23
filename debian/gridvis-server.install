@@ -54,3 +54,5 @@ topology             usr/lib/gridvis-server/
 value                usr/lib/gridvis-server/
 web                  usr/lib/gridvis-server/
 wrapper              usr/lib/gridvis-server/
+changelog.html       usr/lib/gridvis-server/
+other.pom            usr/lib/gridvis-server/
