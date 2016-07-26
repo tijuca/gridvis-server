@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.shiro.web">
-    <module_version install_time="1464005915652" last="true" origin="installer" specification_version="1.2.2.0">
+    <module_version install_time="1467013839841" last="true" origin="installer" specification_version="1.2.2.0">
         <file crc="863064643" name="config/Modules/de-janitza-pasw-wrapper-shiro-web.xml"/>
-        <file crc="3478860610" name="modules/de-janitza-pasw-wrapper-shiro-web.jar"/>
+        <file crc="1184063314" name="modules/de-janitza-pasw-wrapper-shiro-web.jar"/>
         <file crc="2502759125" name="modules/ext/de.janitza.pasw.wrapper-shiro-web/org-apache-shiro/shiro-web.jar"/>
     </module_version>
 </module>

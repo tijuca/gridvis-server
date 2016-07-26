@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.imgscalr">
-    <module_version install_time="1464005915549" last="true" origin="installer" specification_version="4.2.0">
+    <module_version install_time="1467013839695" last="true" origin="installer" specification_version="4.2.0">
         <file crc="2639410335" name="config/Modules/de-janitza-pasw-wrapper-imgscalr.xml"/>
-        <file crc="1907937931" name="modules/de-janitza-pasw-wrapper-imgscalr.jar"/>
+        <file crc="2797472080" name="modules/de-janitza-pasw-wrapper-imgscalr.jar"/>
         <file crc="2175593662" name="modules/ext/de.janitza.pasw.wrapper-imgscalr/org-imgscalr/imgscalr-lib.jar"/>
     </module_version>
 </module>
