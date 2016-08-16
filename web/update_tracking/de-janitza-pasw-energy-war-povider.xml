@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.energy.war.povider">
-    <module_version install_time="1467013838589" last="true" origin="installer" specification_version="2.0.12">
+    <module_version install_time="1469707759674" last="true" origin="installer" specification_version="2.0.12.9">
         <file crc="2183735900" name="config/Modules/de-janitza-pasw-energy-war-povider.xml"/>
-        <file crc="618033279" name="modules/de-janitza-pasw-energy-war-povider.jar"/>
-        <file crc="3409312215" name="war/energy-rest.war"/>
-        <file crc="3657377244" name="war/energy.war"/>
+        <file crc="3595430898" name="modules/de-janitza-pasw-energy-war-povider.jar"/>
+        <file crc="2363413478" name="war/energy-rest.war"/>
+        <file crc="1482403999" name="war/energy.war"/>
     </module_version>
 </module>
