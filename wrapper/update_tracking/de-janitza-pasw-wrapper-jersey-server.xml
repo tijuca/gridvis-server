@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jersey.server">
-    <module_version install_time="1469707761675" last="true" origin="installer" specification_version="2.22.1.12">
+    <module_version install_time="1472115500159" last="true" origin="installer" specification_version="2.22.1.12">
         <file crc="3381648856" name="config/Modules/de-janitza-pasw-wrapper-jersey-server.xml"/>
-        <file crc="180636321" name="modules/de-janitza-pasw-wrapper-jersey-server.jar"/>
+        <file crc="3763970053" name="modules/de-janitza-pasw-wrapper-jersey-server.jar"/>
         <file crc="3009198276" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/javax-validation/validation-api.jar"/>
         <file crc="1009814964" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-glassfish-jersey-containers/jersey-container-servlet-core.jar"/>
         <file crc="2166495697" name="modules/ext/de.janitza.pasw.wrapper-jersey-server/org-glassfish-jersey-containers/jersey-container-servlet.jar"/>
