@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jetty.server">
-    <module_version install_time="1472115499385" last="true" origin="installer" specification_version="9.3.6">
+    <module_version install_time="1486122427454" last="true" origin="installer" specification_version="9.3.14.1">
         <file crc="764312993" name="config/Modules/de-janitza-pasw-wrapper-jetty-server.xml"/>
-        <file crc="3023391661" name="modules/de-janitza-pasw-wrapper-jetty-server.jar"/>
+        <file crc="1986325190" name="modules/de-janitza-pasw-wrapper-jetty-server.jar"/>
         <file crc="1065403493" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/javax-servlet/javax.servlet-api.jar"/>
-        <file crc="2149724688" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-client.jar"/>
-        <file crc="3777937140" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-http.jar"/>
-        <file crc="3607287818" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-io.jar"/>
-        <file crc="1008988241" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-rewrite.jar"/>
-        <file crc="2194160202" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-security.jar"/>
-        <file crc="4095050499" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-server.jar"/>
-        <file crc="3426716984" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-servlet.jar"/>
-        <file crc="3873452203" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-util.jar"/>
-        <file crc="2614552975" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-webapp.jar"/>
-        <file crc="1257818682" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-xml.jar"/>
+        <file crc="3391533608" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-client.jar"/>
+        <file crc="1094851350" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-http.jar"/>
+        <file crc="755716955" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-io.jar"/>
+        <file crc="333471158" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-rewrite.jar"/>
+        <file crc="3713646222" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-security.jar"/>
+        <file crc="4103862334" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-server.jar"/>
+        <file crc="92571153" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-servlet.jar"/>
+        <file crc="786500268" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-util.jar"/>
+        <file crc="932584108" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-webapp.jar"/>
+        <file crc="761943529" name="modules/ext/de.janitza.pasw.wrapper-jetty-server/org-eclipse-jetty/jetty-xml.jar"/>
     </module_version>
 </module>

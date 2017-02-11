@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.energy.energy.rest.api">
+    <module_version install_time="1486122436595" last="true" origin="installer" specification_version="1.1.0">
+        <file crc="3160864574" name="config/Modules/de-janitza-pasw-energy-energy-rest-api.xml"/>
+        <file crc="4287728079" name="modules/de-janitza-pasw-energy-energy-rest-api.jar"/>
+    </module_version>
+</module>
