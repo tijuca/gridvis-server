@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.wicket.core">
-    <module_version install_time="1472115498357" last="true" origin="installer" specification_version="6.15.0.0">
+    <module_version install_time="1486122424502" last="true" origin="installer" specification_version="7.5.0.2">
         <file crc="4168011300" name="config/Modules/de-janitza-pasw-wrapper-wicket-core.xml"/>
-        <file crc="3234715557" name="modules/de-janitza-pasw-wrapper-wicket-core.jar"/>
-        <file crc="2193106888" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/org-apache-wicket/wicket-core.jar"/>
-        <file crc="1757951429" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/org-apache-wicket/wicket-request.jar"/>
-        <file crc="4128756463" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/org-apache-wicket/wicket-util.jar"/>
+        <file crc="2628841201" name="modules/de-janitza-pasw-wrapper-wicket-core.jar"/>
+        <file crc="3590524805" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/commons-fileupload/commons-fileupload.jar"/>
+        <file crc="122887306" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/org-apache-commons/commons-collections4.jar"/>
+        <file crc="2910431785" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/org-apache-wicket/wicket-core.jar"/>
+        <file crc="3916125624" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/org-apache-wicket/wicket-request.jar"/>
+        <file crc="2114521465" name="modules/ext/de.janitza.pasw.wrapper-wicket-core/org-apache-wicket/wicket-util.jar"/>
     </module_version>
 </module>

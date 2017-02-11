@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.energy.energy.rest.base.translation.surrogate">
+    <module_version install_time="1486122413397" last="true" origin="installer" specification_version="1.1.0">
+        <file crc="1048067774" name="config/Modules/de-janitza-pasw-energy-energy-rest-base-translation-surrogate.xml"/>
+        <file crc="712053493" name="modules/de-janitza-pasw-energy-energy-rest-base-translation-surrogate.jar"/>
+    </module_version>
+</module>
